@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Structs'/>
+        <page name='Properties'/>
+        <page name='Instantiation'/>
+        <page name='Instance Methods'/>
+        <page name='Type Methods'/>
+        <page name='Classes'/>
+        <page name='Subclassing'/>
+        <page name='Inner Types'/>
+        <page name='Stored Properties'/>
+        <page name='Computed Properties'/>
+        <page name='Lazy Properties'/>
+        <page name='Type Properties'/>
+        <page name='Property Observers'/>
+    </pages>
+</playground>

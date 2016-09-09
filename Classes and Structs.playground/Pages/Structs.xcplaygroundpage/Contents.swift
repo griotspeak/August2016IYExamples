@@ -1,0 +1,8 @@
+
+/*: 
+ # Declaration/Definition
+*/
+
+struct Point {
+
+}
