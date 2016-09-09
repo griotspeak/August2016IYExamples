@@ -19,8 +19,6 @@ struct Point {
 
 let a = Point(x: -6, y: 8)
 let b = Point(x: 2, y: 2)
-
 a.distance(to: b)
-
 
 //: [Next](@next)

@@ -14,5 +14,6 @@
         <page name='Lazy Properties'/>
         <page name='Type Properties'/>
         <page name='Property Observers'/>
+        <page name='Car example'/>
     </pages>
 </playground>
