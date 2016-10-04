@@ -6,24 +6,22 @@ func primes(upperBound: Int) -> [Int] {
 
     while let thisPrime = possibilities.first {
         listOfPrimes.append(thisPrime)
-
-        //        possibilities = possibilities.filter { item in
-        //            item % thisPrime != 0
-        //        }
-
-        var newPossibilities: [Int] = []
-        for possible in possibilities where possible % thisPrime != 0 {
-            newPossibilities.append(possible)
+        possibilities = possibilities.filter { item in
+            item % thisPrime != 0
         }
-
-        possibilities = newPossibilities
-
     }
 
-    
     return listOfPrimes
 }
 
 
 
-print(primes(upperBound: 10))
+print(primes(upperBound: 30))
+
+
+var array = [AnyObject]()
+array.append(1)
+array.append(2.0)
+array.append("3")
+array.append([4, 5, 6])
+array.append([7: "7", 8: "8"])
