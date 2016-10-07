@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UserAuthCompletionHandler.xcodeproj">
+      location = "self:Checkmate.xcodeproj">
    </FileRef>
 </Workspace>

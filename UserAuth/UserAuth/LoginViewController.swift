@@ -14,6 +14,14 @@ protocol LoginViewControllerDelegate {
 }
 
 class LoginViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        payloadField.autocorrectionType = .no
+    }
+
+
     var delegate: LoginViewControllerDelegate?
     @IBOutlet var payloadField: UITextField!
     @IBAction func doIt(_ sender: AnyObject) {

@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3284A33B1DA539CD00D9F596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A33A1DA539CD00D9F596 /* AppDelegate.swift */; };
+		3284A33D1DA539CD00D9F596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A33C1DA539CD00D9F596 /* ViewController.swift */; };
+		3284A3401DA539CD00D9F596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3284A33E1DA539CD00D9F596 /* Main.storyboard */; };
+		3284A3421DA539CD00D9F596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3284A3411DA539CD00D9F596 /* Assets.xcassets */; };
+		3284A3451DA539CD00D9F596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3284A3431DA539CD00D9F596 /* LaunchScreen.storyboard */; };
+		3284A3501DA539CD00D9F596 /* CheckmateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A34F1DA539CD00D9F596 /* CheckmateTests.swift */; };
+		3284A35B1DA539CD00D9F596 /* CheckmateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A35A1DA539CD00D9F596 /* CheckmateUITests.swift */; };
+		3284A3691DA539F000D9F596 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3681DA539F000D9F596 /* User.swift */; };
+		3284A36B1DA539F500D9F596 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A36A1DA539F500D9F596 /* Event.swift */; };
+		3284A36D1DA539FF00D9F596 /* ContactRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A36C1DA539FF00D9F596 /* ContactRequest.swift */; };
+		3284A36F1DA53C0600D9F596 /* RegistrationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A36E1DA53C0600D9F596 /* RegistrationRequest.swift */; };
+		3284A3711DA53E7E00D9F596 /* CheckmateAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3701DA53E7E00D9F596 /* CheckmateAPI.swift */; };
+		3284A3731DA5461800D9F596 /* CheckmateAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3721DA5461800D9F596 /* CheckmateAPITests.swift */; };
+		3284A3751DA548A500D9F596 /* JSONTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3741DA548A500D9F596 /* JSONTools.swift */; };
+		3284A3771DA5527500D9F596 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3761DA5527500D9F596 /* UserTests.swift */; };
+		3284A3791DA5599600D9F596 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A3781DA5599600D9F596 /* LoginViewController.swift */; };
+		3284A37B1DA562DA00D9F596 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A37A1DA562DA00D9F596 /* LoginRequest.swift */; };
+		3284A37D1DA5812700D9F596 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3284A37C1DA5812700D9F596 /* RegistrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3284A34C1DA539CD00D9F596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3284A32F1DA539CD00D9F596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3284A3361DA539CD00D9F596;
+			remoteInfo = Checkmate;
+		};
+		3284A3571DA539CD00D9F596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3284A32F1DA539CD00D9F596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3284A3361DA539CD00D9F596;
+			remoteInfo = Checkmate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3284A3371DA539CD00D9F596 /* Checkmate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkmate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3284A33A1DA539CD00D9F596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3284A33C1DA539CD00D9F596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3284A33F1DA539CD00D9F596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3284A3411DA539CD00D9F596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3284A3441DA539CD00D9F596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3284A3461DA539CD00D9F596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3284A34B1DA539CD00D9F596 /* CheckmateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckmateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3284A34F1DA539CD00D9F596 /* CheckmateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmateTests.swift; sourceTree = "<group>"; };
+		3284A3511DA539CD00D9F596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3284A3561DA539CD00D9F596 /* CheckmateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckmateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3284A35A1DA539CD00D9F596 /* CheckmateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmateUITests.swift; sourceTree = "<group>"; };
+		3284A35C1DA539CD00D9F596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3284A3681DA539F000D9F596 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3284A36A1DA539F500D9F596 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3284A36C1DA539FF00D9F596 /* ContactRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRequest.swift; sourceTree = "<group>"; };
+		3284A36E1DA53C0600D9F596 /* RegistrationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationRequest.swift; sourceTree = "<group>"; };
+		3284A3701DA53E7E00D9F596 /* CheckmateAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmateAPI.swift; sourceTree = "<group>"; };
+		3284A3721DA5461800D9F596 /* CheckmateAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckmateAPITests.swift; sourceTree = "<group>"; };
+		3284A3741DA548A500D9F596 /* JSONTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONTools.swift; sourceTree = "<group>"; };
+		3284A3761DA5527500D9F596 /* UserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		3284A3781DA5599600D9F596 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3284A37A1DA562DA00D9F596 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		3284A37C1DA5812700D9F596 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3284A3341DA539CD00D9F596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3481DA539CD00D9F596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3531DA539CD00D9F596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3284A32E1DA539CD00D9F596 = {
+			isa = PBXGroup;
+			children = (
+				3284A3391DA539CD00D9F596 /* Checkmate */,
+				3284A34E1DA539CD00D9F596 /* CheckmateTests */,
+				3284A3591DA539CD00D9F596 /* CheckmateUITests */,
+				3284A3381DA539CD00D9F596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3284A3381DA539CD00D9F596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3284A3371DA539CD00D9F596 /* Checkmate.app */,
+				3284A34B1DA539CD00D9F596 /* CheckmateTests.xctest */,
+				3284A3561DA539CD00D9F596 /* CheckmateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3284A3391DA539CD00D9F596 /* Checkmate */ = {
+			isa = PBXGroup;
+			children = (
+				3284A3461DA539CD00D9F596 /* Info.plist */,
+				3284A33A1DA539CD00D9F596 /* AppDelegate.swift */,
+				3284A3701DA53E7E00D9F596 /* CheckmateAPI.swift */,
+				3284A36C1DA539FF00D9F596 /* ContactRequest.swift */,
+				3284A36A1DA539F500D9F596 /* Event.swift */,
+				3284A3741DA548A500D9F596 /* JSONTools.swift */,
+				3284A37A1DA562DA00D9F596 /* LoginRequest.swift */,
+				3284A3781DA5599600D9F596 /* LoginViewController.swift */,
+				3284A36E1DA53C0600D9F596 /* RegistrationRequest.swift */,
+				3284A37C1DA5812700D9F596 /* RegistrationViewController.swift */,
+				3284A3681DA539F000D9F596 /* User.swift */,
+				3284A33C1DA539CD00D9F596 /* ViewController.swift */,
+				3284A3411DA539CD00D9F596 /* Assets.xcassets */,
+				3284A3431DA539CD00D9F596 /* LaunchScreen.storyboard */,
+				3284A33E1DA539CD00D9F596 /* Main.storyboard */,
+			);
+			path = Checkmate;
+			sourceTree = "<group>";
+		};
+		3284A34E1DA539CD00D9F596 /* CheckmateTests */ = {
+			isa = PBXGroup;
+			children = (
+				3284A34F1DA539CD00D9F596 /* CheckmateTests.swift */,
+				3284A3511DA539CD00D9F596 /* Info.plist */,
+				3284A3721DA5461800D9F596 /* CheckmateAPITests.swift */,
+				3284A3761DA5527500D9F596 /* UserTests.swift */,
+			);
+			path = CheckmateTests;
+			sourceTree = "<group>";
+		};
+		3284A3591DA539CD00D9F596 /* CheckmateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3284A35A1DA539CD00D9F596 /* CheckmateUITests.swift */,
+				3284A35C1DA539CD00D9F596 /* Info.plist */,
+			);
+			path = CheckmateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3284A3361DA539CD00D9F596 /* Checkmate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3284A35F1DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "Checkmate" */;
+			buildPhases = (
+				3284A3331DA539CD00D9F596 /* Sources */,
+				3284A3341DA539CD00D9F596 /* Frameworks */,
+				3284A3351DA539CD00D9F596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkmate;
+			productName = Checkmate;
+			productReference = 3284A3371DA539CD00D9F596 /* Checkmate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3284A34A1DA539CD00D9F596 /* CheckmateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3284A3621DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "CheckmateTests" */;
+			buildPhases = (
+				3284A3471DA539CD00D9F596 /* Sources */,
+				3284A3481DA539CD00D9F596 /* Frameworks */,
+				3284A3491DA539CD00D9F596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3284A34D1DA539CD00D9F596 /* PBXTargetDependency */,
+			);
+			name = CheckmateTests;
+			productName = CheckmateTests;
+			productReference = 3284A34B1DA539CD00D9F596 /* CheckmateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3284A3551DA539CD00D9F596 /* CheckmateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3284A3651DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "CheckmateUITests" */;
+			buildPhases = (
+				3284A3521DA539CD00D9F596 /* Sources */,
+				3284A3531DA539CD00D9F596 /* Frameworks */,
+				3284A3541DA539CD00D9F596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3284A3581DA539CD00D9F596 /* PBXTargetDependency */,
+			);
+			name = CheckmateUITests;
+			productName = CheckmateUITests;
+			productReference = 3284A3561DA539CD00D9F596 /* CheckmateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3284A32F1DA539CD00D9F596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Buttons and Lights LLC";
+				TargetAttributes = {
+					3284A3361DA539CD00D9F596 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3S3BWK3L4;
+						ProvisioningStyle = Automatic;
+					};
+					3284A34A1DA539CD00D9F596 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3S3BWK3L4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3284A3361DA539CD00D9F596;
+					};
+					3284A3551DA539CD00D9F596 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = K3S3BWK3L4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3284A3361DA539CD00D9F596;
+					};
+				};
+			};
+			buildConfigurationList = 3284A3321DA539CD00D9F596 /* Build configuration list for PBXProject "Checkmate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3284A32E1DA539CD00D9F596;
+			productRefGroup = 3284A3381DA539CD00D9F596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3284A3361DA539CD00D9F596 /* Checkmate */,
+				3284A34A1DA539CD00D9F596 /* CheckmateTests */,
+				3284A3551DA539CD00D9F596 /* CheckmateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3284A3351DA539CD00D9F596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284A3451DA539CD00D9F596 /* LaunchScreen.storyboard in Resources */,
+				3284A3421DA539CD00D9F596 /* Assets.xcassets in Resources */,
+				3284A3401DA539CD00D9F596 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3491DA539CD00D9F596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3541DA539CD00D9F596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3284A3331DA539CD00D9F596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284A3791DA5599600D9F596 /* LoginViewController.swift in Sources */,
+				3284A36B1DA539F500D9F596 /* Event.swift in Sources */,
+				3284A33D1DA539CD00D9F596 /* ViewController.swift in Sources */,
+				3284A37D1DA5812700D9F596 /* RegistrationViewController.swift in Sources */,
+				3284A37B1DA562DA00D9F596 /* LoginRequest.swift in Sources */,
+				3284A36D1DA539FF00D9F596 /* ContactRequest.swift in Sources */,
+				3284A36F1DA53C0600D9F596 /* RegistrationRequest.swift in Sources */,
+				3284A33B1DA539CD00D9F596 /* AppDelegate.swift in Sources */,
+				3284A3751DA548A500D9F596 /* JSONTools.swift in Sources */,
+				3284A3691DA539F000D9F596 /* User.swift in Sources */,
+				3284A3711DA53E7E00D9F596 /* CheckmateAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3471DA539CD00D9F596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284A3771DA5527500D9F596 /* UserTests.swift in Sources */,
+				3284A3731DA5461800D9F596 /* CheckmateAPITests.swift in Sources */,
+				3284A3501DA539CD00D9F596 /* CheckmateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3284A3521DA539CD00D9F596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3284A35B1DA539CD00D9F596 /* CheckmateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3284A34D1DA539CD00D9F596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3284A3361DA539CD00D9F596 /* Checkmate */;
+			targetProxy = 3284A34C1DA539CD00D9F596 /* PBXContainerItemProxy */;
+		};
+		3284A3581DA539CD00D9F596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3284A3361DA539CD00D9F596 /* Checkmate */;
+			targetProxy = 3284A3571DA539CD00D9F596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3284A33E1DA539CD00D9F596 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3284A33F1DA539CD00D9F596 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3284A3431DA539CD00D9F596 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3284A3441DA539CD00D9F596 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3284A35D1DA539CD00D9F596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3284A35E1DA539CD00D9F596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3284A3601DA539CD00D9F596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = Checkmate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.Checkmate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3284A3611DA539CD00D9F596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = Checkmate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.Checkmate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3284A3631DA539CD00D9F596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = CheckmateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.CheckmateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkmate.app/Checkmate";
+			};
+			name = Debug;
+		};
+		3284A3641DA539CD00D9F596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = CheckmateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.CheckmateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkmate.app/Checkmate";
+			};
+			name = Release;
+		};
+		3284A3661DA539CD00D9F596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = CheckmateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.CheckmateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Checkmate;
+			};
+			name = Debug;
+		};
+		3284A3671DA539CD00D9F596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K3S3BWK3L4;
+				INFOPLIST_FILE = CheckmateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.buttonsandlights.CheckmateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Checkmate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3284A3321DA539CD00D9F596 /* Build configuration list for PBXProject "Checkmate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284A35D1DA539CD00D9F596 /* Debug */,
+				3284A35E1DA539CD00D9F596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3284A35F1DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "Checkmate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284A3601DA539CD00D9F596 /* Debug */,
+				3284A3611DA539CD00D9F596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3284A3621DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "CheckmateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284A3631DA539CD00D9F596 /* Debug */,
+				3284A3641DA539CD00D9F596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3284A3651DA539CD00D9F596 /* Build configuration list for PBXNativeTarget "CheckmateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3284A3661DA539CD00D9F596 /* Debug */,
+				3284A3671DA539CD00D9F596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3284A32F1DA539CD00D9F596 /* Project object */;
+}

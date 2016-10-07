@@ -1,6 +1,6 @@
 //
-//  UserAuthCompletionHandlerUITests.swift
-//  UserAuthCompletionHandlerUITests
+//  ViewLifecycleUITests.swift
+//  ViewLifecycleUITests
 //
 //  Created by TJ Usiyan on 2016/04/10.
 //  Copyright © 2016 Buttons and Lights LLC. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class UserAuthCompletionHandlerUITests: XCTestCase {
+class ViewLifecycleUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
