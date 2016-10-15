@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dzL-yp-YMj">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Account View Controller-->
+        <scene sceneID="fnZ-7i-oVJ">
+            <objects>
+                <tableViewController id="dzL-yp-YMj" customClass="AccountViewController" customModule="MoneyBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="iIc-dr-PAc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TransactionCell" id="lxz-f7-lqg" customClass="TransactionCell" customModule="MoneyBook" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lxz-f7-lqg" id="UtJ-q9-xxF">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKx-bp-Krg">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="an0-E8-uQI">
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="lOz-tU-p5U"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="an0-E8-uQI" firstAttribute="trailing" secondItem="UtJ-q9-xxF" secondAttribute="trailingMargin" id="CtU-5a-zKf"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="UKx-bp-Krg" secondAttribute="bottom" id="EU1-Ne-XmG"/>
+                                        <constraint firstItem="an0-E8-uQI" firstAttribute="leading" secondItem="UKx-bp-Krg" secondAttribute="trailing" constant="8" symbolic="YES" id="QnB-GI-Bcr"/>
+                                        <constraint firstItem="UKx-bp-Krg" firstAttribute="top" secondItem="UtJ-q9-xxF" secondAttribute="topMargin" id="RgB-bJ-WHD"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="an0-E8-uQI" secondAttribute="bottom" id="htb-sU-R5D"/>
+                                        <constraint firstItem="an0-E8-uQI" firstAttribute="top" secondItem="UtJ-q9-xxF" secondAttribute="topMargin" id="tfn-T2-90N"/>
+                                        <constraint firstItem="UKx-bp-Krg" firstAttribute="leading" secondItem="UtJ-q9-xxF" secondAttribute="leadingMargin" id="yT6-KZ-vh2"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="amountLabel" destination="an0-E8-uQI" id="eOR-3A-fAp"/>
+                                    <outlet property="titleLabel" destination="UKx-bp-Krg" id="Hio-nO-OfF"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dzL-yp-YMj" id="Aun-b9-G6x"/>
+                            <outlet property="delegate" destination="dzL-yp-YMj" id="SqD-E7-0Iq"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q9e-Dh-5MF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="-44"/>
+        </scene>
+    </scenes>
+</document>
